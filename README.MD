@@ -16,7 +16,7 @@ FileSearcher.java is an object that uses a directory that is prompted for when c
 
 App.java is used to run the program create user interface menus and to create instances of the object Account.java and FileSearcher.java 
 
-More indepth documentation can be found in each file.
+More in-depth documentation can be found in each file.
 
 Thanks,
 Joel
