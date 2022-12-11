@@ -9,6 +9,7 @@ Affter getting the directory of the workspace, the program has several options a
 User can not access any of those options until the username and password they input matches what is in the info.dat file which contains the current username and password. 
 
 Account.java is an object of the user's account with the information always updated if changed, all account information is in the info.dat file
+
 Note: Default username is admin and the default password is 12345
 
 SrcFile.java is an object of the current source code file that can be locked or unlocked using java.util.io.File's methods
