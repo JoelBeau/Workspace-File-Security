@@ -9,10 +9,11 @@ Affter getting the directory of the workspace, the program has several options a
 User can not access any of those options until the username and password they input matches what is in the info.dat file which contains the current username and password. 
 
 Account.java is an object of the user's account with the information always updated if changed, all account information is in the info.dat file
+Note: Default username is admin and the default password is 12345
 
 SrcFile.java is an object of the current source code file that can be locked or unlocked using java.util.io.File's methods
 
-FileSearcher.java is an object that uses a directory that is prompted for when craeating an instnace of this object to find all of the source files in a specific diretory along with methods to lock and unlock all of said files under said directory
+FileSearcher.java is an object that uses a directory that is prompted for when creating an instnace of this object to find all of the source files in a specific diretory along with methods to lock and unlock all of said files under said directory
 
 App.java is used to run the program create user interface menus and to create instances of the object Account.java and FileSearcher.java 
 
